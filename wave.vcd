@@ -1,0 +1,106 @@
+$date
+	Tue Feb  4 08:59:59 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module tb $end
+$var wire 10 ! c [9:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$var reg 1 $ clk $end
+$scope module dut $end
+$var wire 4 % A [3:0] $end
+$var wire 4 & B [3:0] $end
+$var wire 1 $ clk $end
+$var reg 10 ' C [9:0] $end
+$var reg 5 ( T1 [4:0] $end
+$var reg 5 ) T2 [4:0] $end
+$var reg 10 * T3 [9:0] $end
+$upscope $end
+$upscope $end
+$scope module tb $end
+$scope module dut $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+bx )
+bx (
+bx '
+b10 &
+b1 %
+0$
+b10 #
+b1 "
+bx !
+$end
+#1000
+b11 (
+b11111 )
+1$
+#2000
+0$
+#3000
+b1011101 *
+1$
+#4000
+0$
+#5000
+b1000 (
+b11110 )
+b1011101 !
+b1011101 '
+1$
+b101 #
+b101 &
+b11 "
+b11 %
+#6000
+0$
+#7000
+b11110000 *
+1$
+#8000
+0$
+#9000
+b11110000 !
+b11110000 '
+1$
+#10000
+0$
+#11000
+1$
+#12000
+0$
+b10 #
+b10 &
+b110 "
+b110 %
+#13000
+b100 )
+1$
+#14000
+0$
+#15000
+b100000 *
+1$
+#16000
+0$
+#17000
+b100000 !
+b100000 '
+1$
+#18000
+0$
+#19000
+1$
+#20000
+0$
+#21000
+1$
